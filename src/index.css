@@ -8,14 +8,17 @@
     @apply h-full
   }
   body {
-    @apply h-full font-JetBrains font-bold text-lg leading-6
+    @apply h-full font-JetBrains font-bold text-lg leading-6 text-almost bg-very-dark-gray
+  }
+  #root {
+    @apply h-full flex items-center justify-center
+  }
+  input {
+    @apply bg-transparent select-none outline-none border-0
   }
 }
 
 @layer components {
-  .big-title {
-    @apply font-bold text leading-10
-  }
   .small-title {
     @apply font-bold text-2xl 
   }

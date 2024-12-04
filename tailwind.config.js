@@ -14,6 +14,7 @@ export default {
       "gray": "#817D92",
       "almost": "#E6E5EA",
       "very-dark-gray": "#18171F",
+      "transparent": "transparent"
     },
     extend: {
       fontFamily: {
